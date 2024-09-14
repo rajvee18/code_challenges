@@ -19,7 +19,7 @@ Kevin's vowel beginning word = ANA
 Here, ANA occurs twice in BANANA. Hence, Kevin will get 
 For better understanding, see the image below: `2` Points.
 
-![alt text](code_challenges/the_minion_game/Screenshot 2024-09-14 191712.png)
+![alt text](/home/code_wizard/coding_files/code_challenges/the_minion_game/Screenshot%202024-09-14%20191712.png)
 
 Your task is to determine the winner of the game and their score.
 The winner's name and score, separated by a space on one line, or **`Draw`** if there is no winner.
