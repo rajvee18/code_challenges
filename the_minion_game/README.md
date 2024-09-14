@@ -15,9 +15,10 @@ A player gets `+1` point for each occurrence of the substring in the string **S*
 
 ### For Example:
 String  = BANANA
-Kevin's vowel beginning word = ANA
-Here, ANA occurs twice in BANANA. Hence, Kevin will get 
-For better understanding, see the image below: `2` Points.
+Kevin's vowel beginning word = ANA.
+Here, ANA occurs twice in BANANA. Hence, Kevin will get `+2` Points.
+
+For better understanding, see the image below:
 
 ![alt text](./Screenshot%202024-09-14%20191712.png)
 
