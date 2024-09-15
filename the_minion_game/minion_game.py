@@ -32,6 +32,8 @@ def CountOccurrences(string, substring):
             break
     # return the value of count
     return count
+substring1 = []
+substring2 = []
 
 
 i=0
@@ -40,22 +42,35 @@ while i < end:
     if s[i] in vowels:
         for j in range(i,end):
             substring = s[i:j+1]
-            x = CountOccurrences(s,substring)
-            Kevin = Kevin + x
+            if substring not in substring1:
+                substring1.append(substring)
+            
+            
         
-    i = i+1
-
-
-
-i=0
-while i < end:
+    
     if s[i] not in vowels:
         for j in range(i,end):
             substring = s[i:j+1]
-            x = CountOccurrences(s,substring)
-            Stuart = Stuart + x
+            if substring not in substring2:
+                substring2.append(substring)
+            
+    
+    i = i+1
+
+
+for x in substring1:
+    Kevin = Kevin + CountOccurrences(s,x)
+
+for x in substring2:
+    Stuart = Stuart + CountOccurrences(s,x)
         
-    i = i+1   
+if Stuart>Kevin:
+    print("Stuart",Stuart)
+elif Kevin>Stuart:
+    print("Kevin",Kevin)       
+else:
+    print("Draw")
+    
 
 
     
@@ -63,7 +78,7 @@ while i < end:
     
 
 
-print(Stuart,Kevin)
+
 
 
 
